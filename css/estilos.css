@@ -1,3 +1,12 @@
+/*
+Varios settings
+
+*/
+a{
+    text-decoration:none
+}
+
+/*---  Style homepage ---*/
 .sacola {
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
@@ -24,6 +33,9 @@ body {
 }
 .sacola {
     padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .container {
     margin: 0 auto;
@@ -33,4 +45,12 @@ body {
     position: relative;
     top: 20px;
     left: 50px;
+}
+header{
+    position: relative;
+}
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
