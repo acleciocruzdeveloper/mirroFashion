@@ -1,0 +1,7 @@
+# Anotações
+* .container {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+* 

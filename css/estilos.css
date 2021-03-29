@@ -5,12 +5,11 @@ Varios settings
 a{
     text-decoration:none
 }
-
 body {
-    font-family: 'Oxygen';
+    
+    color: #333333;
+    font-family: "Oxygen", "Lucida Grande", sans-serif;    
 }
-
-
 /*---  Style homepage ---*/
 .sacola {
     background-image: url(../img/sacola.png);
@@ -27,10 +26,6 @@ body {
 }
 .menu-opcoes a {
     color: #003366;
-}
-body {
-    color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .menu-opcoes ul li {
     display: inline;
@@ -59,7 +54,6 @@ header{
     bottom: 0;
     right: 0;
 }
-
 .busca,
 .menu-departamentos {
     background-color: #DCDCDC;
@@ -138,3 +132,61 @@ header{
 .mais-vendidos {
     background-color: #DCDCF5;
 }
+footer{
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+footer img{
+    margin-left: 10px;
+}
+.social a{
+    /* --Tamanho das imganes redes sociais -- */
+    height:32px;
+    width:32px;
+
+    /* image replacement -- */
+   display: block;
+   text-indent: 9999px;
+}
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+
+}
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+
+}
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+
+}
+footer .container {
+    
+    position: relative;    
+}
+.social {
+    float: right;   
+}
+.social li {
+    
+    display: flex;
+    float: left;
+    margin-left: 25px;
+    vertical-align: middle;    
+}
+.busca button {
+    /*Adicionando imagem do botão */
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+
+    /*-- Tamanho da imagem --*/
+    width: 20px;
+    height: 20px;
+
+    /*-- imagem replacement --*/
+    text-indent: -9999px;
+    
+}
+
